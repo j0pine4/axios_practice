@@ -49,6 +49,7 @@ function getTodos(limit) {
 getBtn = document.querySelector('#get')
 getBtn.addEventListener('click', function(e){
     getTodos(5)
+    console.log("Added this for git practice")
 })
 
 // Post Requests
